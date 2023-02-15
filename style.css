@@ -1,0 +1,43 @@
+body {
+  background-image: url(./bg.jpg) !important;
+}
+
+.float-button {
+  bottom: 40px;
+  right: 40px;
+  padding: 0 !important;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  border:rgb(252, 74, 119);
+  background-color:rgb(252, 74, 119);
+}
+
+.float-button:hover {
+  background-color: rgb(255, 161, 184);
+}
+
+.btn-info:hover {
+  background-color: rgb(255, 161, 184);
+}
+
+.btn-outline-info:hover{
+  background-color: rgb(255, 161, 184);
+}
+
+.btn-info, .btn-outline-info {
+  background-color: rgb(252, 74, 119);
+  border:  rgb(252, 74, 119);
+  color: black;
+}
+
+.feedback-toast {
+  right: 50px;
+  top: 50px;
+  z-index: 99999;
+}
+
+.icon-delete:hover {
+  color: rgb(196, 7, 7);
+}

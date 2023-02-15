@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main{
+   /*  background-image: url(./assets/bgpink.jpg); */
+    background: url(./bg.jpg) !important;
+}
+
+.card-login {
+    width: 300px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color:  rgba(252, 74, 119, 0.539);
+    animation: CardAnimation 3s;
+}
+
+    @keyframes CardAnimation {
+       from {
+        opacity: 0%;
+       }
+       to { 
+        opacity: 100%;        
+        }
+    }
+
+.card-login h1 {
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+}
+
+.card-login form {
+    font-size: 1.5rem;
+}
+
+.card-login form .form-group {
+    margin-bottom: 12px;
+}
+
+.card-login form input[type="submit"]{
+    margin-top: 12px;
+}
+
+.card-login form input {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.btn-default {
+    background-color: rgb(252, 74, 119);
+    color: white;
+}
+
+.btn-default:hover {
+     background-color: rgb(252, 74, 119);
+     color: white;
+} 
+
+a{
+    color: white;
+    text-decoration: none;
+}
